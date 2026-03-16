@@ -19,11 +19,11 @@ const BookCard: React.FC<BookCardProps> = ({
               className="book-card-cover"
             />
           </div>
+          <figcaption className="book-card-meta">
+            <h3 className="book-card-title">{title}</h3>
+            <p className="book-card-author">{author}</p>
+          </figcaption>
         </figure>
-        <figcaption className="book-card-meta">
-          <h3 className="book-card-title">{title}</h3>
-          <p className="book-card-author">{author}</p>
-        </figcaption>
       </article>
 
       {/* <h3 className="library-hero-book-title">{title}</h3>
